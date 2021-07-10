@@ -10,8 +10,15 @@ h1{
 .boo{text-align: center;
         display:flex
     }
-li{
-    display:flex;
+#registration{
+    border: 1em solid;
+    border-radius: 0.5em;
+    padding:2em;
+    width:10em;
+    margin:1em;
+    text-align:center;
+    display:inline-block;
+    text-size-adjust: bold;
 }
 footer{
     padding-left:50%;
