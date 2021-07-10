@@ -1,0 +1,13 @@
+<h1>Northern registration numbers</h1>
+<form action="/plates" method="POST">
+    <input type="text" name="regNum" placeholder="Enter registration number" value="" required>
+<button type="submit" class="button-primary">Add!</button>
+</form>
+
+<h4>Registration Numbers</h4>
+<ul>
+    
+  {{#each numPlate }}
+  <li>{{regNum}}</li>
+  {{/each}}
+</ul>

@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+h1{
+    
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.boo{text-align: center;
+        display:flex
+    }
+li{
+    display:flex;
+}
+footer{
+    padding-left:50%;
+}
+.brandy{
+    background-color: blue;
+    color:white;
+    width:30%;
+    display: flexbox;
+    padding: 0.2em 16em 0.2em 10em;
+}
